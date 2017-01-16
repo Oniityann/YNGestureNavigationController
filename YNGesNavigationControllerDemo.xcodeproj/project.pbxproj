@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41C32171E28BC7800E83B6F /* navigationButtonReturn.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C32141E28BC7800E83B6F /* navigationButtonReturn.png */; };
+		F41C32181E28BC7800E83B6F /* navigationButtonReturn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C32151E28BC7800E83B6F /* navigationButtonReturn@2x.png */; };
+		F41C32191E28BC7800E83B6F /* navigationButtonReturn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C32161E28BC7800E83B6F /* navigationButtonReturn@3x.png */; };
+		F41C321D1E28BC8200E83B6F /* navigationButtonReturnClick.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C321A1E28BC8200E83B6F /* navigationButtonReturnClick.png */; };
+		F41C321E1E28BC8200E83B6F /* navigationButtonReturnClick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C321B1E28BC8200E83B6F /* navigationButtonReturnClick@2x.png */; };
+		F41C321F1E28BC8200E83B6F /* navigationButtonReturnClick@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C321C1E28BC8200E83B6F /* navigationButtonReturnClick@3x.png */; };
+		F459F5481E24DCA700126779 /* YNNavBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F459F5471E24DCA700126779 /* YNNavBaseController.m */; };
+		F468400F1E236B82009B49E0 /* YNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F468400D1E236B82009B49E0 /* YNMainViewController.m */; };
+		F46840141E236B8F009B49E0 /* YNTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46840121E236B8F009B49E0 /* YNTest1ViewController.m */; };
+		F46840151E236B8F009B49E0 /* YNTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46840131E236B8F009B49E0 /* YNTest1ViewController.xib */; };
+		F46840191E236BA3009B49E0 /* YNTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46840171E236BA3009B49E0 /* YNTest2ViewController.m */; };
+		F468401A1E236BA3009B49E0 /* YNTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46840181E236BA3009B49E0 /* YNTest2ViewController.xib */; };
+		F468401D1E237396009B49E0 /* YNGesNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F468401C1E237396009B49E0 /* YNGesNavBar.m */; };
+		F4842CAC1E231FB900A17DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4842CAB1E231FB900A17DBA /* main.m */; };
+		F4842CAF1E231FB900A17DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4842CAE1E231FB900A17DBA /* AppDelegate.m */; };
+		F4842CB71E231FB900A17DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4842CB61E231FB900A17DBA /* Assets.xcassets */; };
+		F4842CBA1E231FB900A17DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4842CB81E231FB900A17DBA /* LaunchScreen.storyboard */; };
+		F4842CC51E231FB900A17DBA /* YNGesNavigationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4842CC41E231FB900A17DBA /* YNGesNavigationControllerDemoTests.m */; };
+		F4842CD01E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4842CCF1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.m */; };
+		F4842CE01E23208600A17DBA /* YNGesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4842CDF1E23208600A17DBA /* YNGesNavigationController.m */; };
+		F4842CE31E23213200A17DBA /* YNGestureAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F4842CE21E23213200A17DBA /* YNGestureAnimator.m */; };
+		F4E631541E248DC300055A14 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E6313A1E248DC300055A14 /* Info.plist */; };
+		F4E631551E248DC300055A14 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6313C1E248DC300055A14 /* MASCompositeConstraint.m */; };
+		F4E631561E248DC300055A14 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6313F1E248DC300055A14 /* MASConstraint.m */; };
+		F4E631571E248DC300055A14 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E631411E248DC300055A14 /* MASConstraintMaker.m */; };
+		F4E631581E248DC300055A14 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E631431E248DC300055A14 /* MASLayoutConstraint.m */; };
+		F4E631591E248DC300055A14 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E631471E248DC300055A14 /* MASViewAttribute.m */; };
+		F4E6315A1E248DC300055A14 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E631491E248DC300055A14 /* MASViewConstraint.m */; };
+		F4E6315B1E248DC300055A14 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6314B1E248DC300055A14 /* NSArray+MASAdditions.m */; };
+		F4E6315C1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6314E1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F4E6315D1E248DC300055A14 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E631501E248DC300055A14 /* View+MASAdditions.m */; };
+		F4E6315E1E248DC300055A14 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E631531E248DC300055A14 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4842CC11E231FB900A17DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4842C9F1E231FB900A17DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4842CA61E231FB900A17DBA;
+			remoteInfo = YNGesNavigationControllerDemo;
+		};
+		F4842CCC1E231FB900A17DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4842C9F1E231FB900A17DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4842CA61E231FB900A17DBA;
+			remoteInfo = YNGesNavigationControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F41C32141E28BC7800E83B6F /* navigationButtonReturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationButtonReturn.png; sourceTree = "<group>"; };
+		F41C32151E28BC7800E83B6F /* navigationButtonReturn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonReturn@2x.png"; sourceTree = "<group>"; };
+		F41C32161E28BC7800E83B6F /* navigationButtonReturn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonReturn@3x.png"; sourceTree = "<group>"; };
+		F41C321A1E28BC8200E83B6F /* navigationButtonReturnClick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationButtonReturnClick.png; sourceTree = "<group>"; };
+		F41C321B1E28BC8200E83B6F /* navigationButtonReturnClick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonReturnClick@2x.png"; sourceTree = "<group>"; };
+		F41C321C1E28BC8200E83B6F /* navigationButtonReturnClick@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonReturnClick@3x.png"; sourceTree = "<group>"; };
+		F459F5461E24DCA700126779 /* YNNavBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNNavBaseController.h; sourceTree = "<group>"; };
+		F459F5471E24DCA700126779 /* YNNavBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNNavBaseController.m; sourceTree = "<group>"; };
+		F468400C1E236B82009B49E0 /* YNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNMainViewController.h; sourceTree = "<group>"; };
+		F468400D1E236B82009B49E0 /* YNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNMainViewController.m; sourceTree = "<group>"; };
+		F46840111E236B8F009B49E0 /* YNTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNTest1ViewController.h; sourceTree = "<group>"; };
+		F46840121E236B8F009B49E0 /* YNTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNTest1ViewController.m; sourceTree = "<group>"; };
+		F46840131E236B8F009B49E0 /* YNTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YNTest1ViewController.xib; sourceTree = "<group>"; };
+		F46840161E236BA3009B49E0 /* YNTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNTest2ViewController.h; sourceTree = "<group>"; };
+		F46840171E236BA3009B49E0 /* YNTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNTest2ViewController.m; sourceTree = "<group>"; };
+		F46840181E236BA3009B49E0 /* YNTest2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YNTest2ViewController.xib; sourceTree = "<group>"; };
+		F468401B1E237396009B49E0 /* YNGesNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNGesNavBar.h; sourceTree = "<group>"; };
+		F468401C1E237396009B49E0 /* YNGesNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNGesNavBar.m; sourceTree = "<group>"; };
+		F4842CA71E231FB900A17DBA /* YNGesNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNGesNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4842CAB1E231FB900A17DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4842CAD1E231FB900A17DBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4842CAE1E231FB900A17DBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4842CB61E231FB900A17DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4842CB91E231FB900A17DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4842CBB1E231FB900A17DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4842CC01E231FB900A17DBA /* YNGesNavigationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNGesNavigationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4842CC41E231FB900A17DBA /* YNGesNavigationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNGesNavigationControllerDemoTests.m; sourceTree = "<group>"; };
+		F4842CC61E231FB900A17DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4842CCB1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNGesNavigationControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4842CCF1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNGesNavigationControllerDemoUITests.m; sourceTree = "<group>"; };
+		F4842CD11E231FB900A17DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4842CDE1E23208600A17DBA /* YNGesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNGesNavigationController.h; sourceTree = "<group>"; };
+		F4842CDF1E23208600A17DBA /* YNGesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNGesNavigationController.m; sourceTree = "<group>"; };
+		F4842CE11E23213200A17DBA /* YNGestureAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNGestureAnimator.h; sourceTree = "<group>"; };
+		F4842CE21E23213200A17DBA /* YNGestureAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNGestureAnimator.m; sourceTree = "<group>"; };
+		F4E6313A1E248DC300055A14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E6313B1E248DC300055A14 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F4E6313C1E248DC300055A14 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F4E6313D1E248DC300055A14 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F4E6313E1E248DC300055A14 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F4E6313F1E248DC300055A14 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F4E631401E248DC300055A14 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F4E631411E248DC300055A14 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F4E631421E248DC300055A14 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F4E631431E248DC300055A14 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F4E631441E248DC300055A14 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F4E631451E248DC300055A14 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F4E631461E248DC300055A14 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F4E631471E248DC300055A14 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F4E631481E248DC300055A14 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F4E631491E248DC300055A14 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F4E6314A1E248DC300055A14 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F4E6314B1E248DC300055A14 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F4E6314C1E248DC300055A14 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F4E6314D1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F4E6314E1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F4E6314F1E248DC300055A14 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F4E631501E248DC300055A14 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F4E631511E248DC300055A14 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F4E631521E248DC300055A14 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F4E631531E248DC300055A14 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4842CA41E231FB900A17DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4842CBD1E231FB900A17DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4842CC81E231FB900A17DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4842C9E1E231FB900A17DBA = {
+			isa = PBXGroup;
+			children = (
+				F4842CA91E231FB900A17DBA /* YNGesNavigationControllerDemo */,
+				F4842CC31E231FB900A17DBA /* YNGesNavigationControllerDemoTests */,
+				F4842CCE1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests */,
+				F4842CA81E231FB900A17DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4842CA81E231FB900A17DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4842CA71E231FB900A17DBA /* YNGesNavigationControllerDemo.app */,
+				F4842CC01E231FB900A17DBA /* YNGesNavigationControllerDemoTests.xctest */,
+				F4842CCB1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4842CA91E231FB900A17DBA /* YNGesNavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F4842CDD1E231FF500A17DBA /* YNGestureNavigationController */,
+				F4842CAD1E231FB900A17DBA /* AppDelegate.h */,
+				F4842CAE1E231FB900A17DBA /* AppDelegate.m */,
+				F468400C1E236B82009B49E0 /* YNMainViewController.h */,
+				F468400D1E236B82009B49E0 /* YNMainViewController.m */,
+				F46840111E236B8F009B49E0 /* YNTest1ViewController.h */,
+				F46840121E236B8F009B49E0 /* YNTest1ViewController.m */,
+				F46840131E236B8F009B49E0 /* YNTest1ViewController.xib */,
+				F46840161E236BA3009B49E0 /* YNTest2ViewController.h */,
+				F46840171E236BA3009B49E0 /* YNTest2ViewController.m */,
+				F46840181E236BA3009B49E0 /* YNTest2ViewController.xib */,
+				F4842CB61E231FB900A17DBA /* Assets.xcassets */,
+				F4842CB81E231FB900A17DBA /* LaunchScreen.storyboard */,
+				F4842CBB1E231FB900A17DBA /* Info.plist */,
+				F4842CAA1E231FB900A17DBA /* Supporting Files */,
+			);
+			path = YNGesNavigationControllerDemo;
+			sourceTree = "<group>";
+		};
+		F4842CAA1E231FB900A17DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4842CAB1E231FB900A17DBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4842CC31E231FB900A17DBA /* YNGesNavigationControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4842CC41E231FB900A17DBA /* YNGesNavigationControllerDemoTests.m */,
+				F4842CC61E231FB900A17DBA /* Info.plist */,
+			);
+			path = YNGesNavigationControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		F4842CCE1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4842CCF1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.m */,
+				F4842CD11E231FB900A17DBA /* Info.plist */,
+			);
+			path = YNGesNavigationControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		F4842CDD1E231FF500A17DBA /* YNGestureNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F4E631391E248DC300055A14 /* Masonry */,
+				F4842CDE1E23208600A17DBA /* YNGesNavigationController.h */,
+				F4842CDF1E23208600A17DBA /* YNGesNavigationController.m */,
+				F468401B1E237396009B49E0 /* YNGesNavBar.h */,
+				F468401C1E237396009B49E0 /* YNGesNavBar.m */,
+				F4842CE11E23213200A17DBA /* YNGestureAnimator.h */,
+				F4842CE21E23213200A17DBA /* YNGestureAnimator.m */,
+				F459F5461E24DCA700126779 /* YNNavBaseController.h */,
+				F459F5471E24DCA700126779 /* YNNavBaseController.m */,
+				F41C32141E28BC7800E83B6F /* navigationButtonReturn.png */,
+				F41C32151E28BC7800E83B6F /* navigationButtonReturn@2x.png */,
+				F41C32161E28BC7800E83B6F /* navigationButtonReturn@3x.png */,
+				F41C321A1E28BC8200E83B6F /* navigationButtonReturnClick.png */,
+				F41C321B1E28BC8200E83B6F /* navigationButtonReturnClick@2x.png */,
+				F41C321C1E28BC8200E83B6F /* navigationButtonReturnClick@3x.png */,
+			);
+			path = YNGestureNavigationController;
+			sourceTree = SOURCE_ROOT;
+		};
+		F4E631391E248DC300055A14 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6313A1E248DC300055A14 /* Info.plist */,
+				F4E6313B1E248DC300055A14 /* MASCompositeConstraint.h */,
+				F4E6313C1E248DC300055A14 /* MASCompositeConstraint.m */,
+				F4E6313D1E248DC300055A14 /* MASConstraint+Private.h */,
+				F4E6313E1E248DC300055A14 /* MASConstraint.h */,
+				F4E6313F1E248DC300055A14 /* MASConstraint.m */,
+				F4E631401E248DC300055A14 /* MASConstraintMaker.h */,
+				F4E631411E248DC300055A14 /* MASConstraintMaker.m */,
+				F4E631421E248DC300055A14 /* MASLayoutConstraint.h */,
+				F4E631431E248DC300055A14 /* MASLayoutConstraint.m */,
+				F4E631441E248DC300055A14 /* Masonry.h */,
+				F4E631451E248DC300055A14 /* MASUtilities.h */,
+				F4E631461E248DC300055A14 /* MASViewAttribute.h */,
+				F4E631471E248DC300055A14 /* MASViewAttribute.m */,
+				F4E631481E248DC300055A14 /* MASViewConstraint.h */,
+				F4E631491E248DC300055A14 /* MASViewConstraint.m */,
+				F4E6314A1E248DC300055A14 /* NSArray+MASAdditions.h */,
+				F4E6314B1E248DC300055A14 /* NSArray+MASAdditions.m */,
+				F4E6314C1E248DC300055A14 /* NSArray+MASShorthandAdditions.h */,
+				F4E6314D1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F4E6314E1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F4E6314F1E248DC300055A14 /* View+MASAdditions.h */,
+				F4E631501E248DC300055A14 /* View+MASAdditions.m */,
+				F4E631511E248DC300055A14 /* View+MASShorthandAdditions.h */,
+				F4E631521E248DC300055A14 /* ViewController+MASAdditions.h */,
+				F4E631531E248DC300055A14 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4842CA61E231FB900A17DBA /* YNGesNavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4842CD41E231FB900A17DBA /* Build configuration list for PBXNativeTarget "YNGesNavigationControllerDemo" */;
+			buildPhases = (
+				F4842CA31E231FB900A17DBA /* Sources */,
+				F4842CA41E231FB900A17DBA /* Frameworks */,
+				F4842CA51E231FB900A17DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNGesNavigationControllerDemo;
+			productName = YNGesNavigationControllerDemo;
+			productReference = F4842CA71E231FB900A17DBA /* YNGesNavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4842CBF1E231FB900A17DBA /* YNGesNavigationControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4842CD71E231FB900A17DBA /* Build configuration list for PBXNativeTarget "YNGesNavigationControllerDemoTests" */;
+			buildPhases = (
+				F4842CBC1E231FB900A17DBA /* Sources */,
+				F4842CBD1E231FB900A17DBA /* Frameworks */,
+				F4842CBE1E231FB900A17DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4842CC21E231FB900A17DBA /* PBXTargetDependency */,
+			);
+			name = YNGesNavigationControllerDemoTests;
+			productName = YNGesNavigationControllerDemoTests;
+			productReference = F4842CC01E231FB900A17DBA /* YNGesNavigationControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4842CCA1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4842CDA1E231FB900A17DBA /* Build configuration list for PBXNativeTarget "YNGesNavigationControllerDemoUITests" */;
+			buildPhases = (
+				F4842CC71E231FB900A17DBA /* Sources */,
+				F4842CC81E231FB900A17DBA /* Frameworks */,
+				F4842CC91E231FB900A17DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4842CCD1E231FB900A17DBA /* PBXTargetDependency */,
+			);
+			name = YNGesNavigationControllerDemoUITests;
+			productName = YNGesNavigationControllerDemoUITests;
+			productReference = F4842CCB1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4842C9F1E231FB900A17DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YN;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zyn;
+				TargetAttributes = {
+					F4842CA61E231FB900A17DBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFF74VD5HK;
+						ProvisioningStyle = Automatic;
+					};
+					F4842CBF1E231FB900A17DBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFF74VD5HK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4842CA61E231FB900A17DBA;
+					};
+					F4842CCA1E231FB900A17DBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFF74VD5HK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4842CA61E231FB900A17DBA;
+					};
+				};
+			};
+			buildConfigurationList = F4842CA21E231FB900A17DBA /* Build configuration list for PBXProject "YNGesNavigationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4842C9E1E231FB900A17DBA;
+			productRefGroup = F4842CA81E231FB900A17DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4842CA61E231FB900A17DBA /* YNGesNavigationControllerDemo */,
+				F4842CBF1E231FB900A17DBA /* YNGesNavigationControllerDemoTests */,
+				F4842CCA1E231FB900A17DBA /* YNGesNavigationControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4842CA51E231FB900A17DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C321D1E28BC8200E83B6F /* navigationButtonReturnClick.png in Resources */,
+				F4842CBA1E231FB900A17DBA /* LaunchScreen.storyboard in Resources */,
+				F46840151E236B8F009B49E0 /* YNTest1ViewController.xib in Resources */,
+				F41C321F1E28BC8200E83B6F /* navigationButtonReturnClick@3x.png in Resources */,
+				F41C321E1E28BC8200E83B6F /* navigationButtonReturnClick@2x.png in Resources */,
+				F4842CB71E231FB900A17DBA /* Assets.xcassets in Resources */,
+				F4E631541E248DC300055A14 /* Info.plist in Resources */,
+				F468401A1E236BA3009B49E0 /* YNTest2ViewController.xib in Resources */,
+				F41C32171E28BC7800E83B6F /* navigationButtonReturn.png in Resources */,
+				F41C32181E28BC7800E83B6F /* navigationButtonReturn@2x.png in Resources */,
+				F41C32191E28BC7800E83B6F /* navigationButtonReturn@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4842CBE1E231FB900A17DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4842CC91E231FB900A17DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4842CA31E231FB900A17DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468401D1E237396009B49E0 /* YNGesNavBar.m in Sources */,
+				F4842CE01E23208600A17DBA /* YNGesNavigationController.m in Sources */,
+				F4E6315B1E248DC300055A14 /* NSArray+MASAdditions.m in Sources */,
+				F468400F1E236B82009B49E0 /* YNMainViewController.m in Sources */,
+				F4842CAF1E231FB900A17DBA /* AppDelegate.m in Sources */,
+				F4E6315D1E248DC300055A14 /* View+MASAdditions.m in Sources */,
+				F4E631581E248DC300055A14 /* MASLayoutConstraint.m in Sources */,
+				F4E631561E248DC300055A14 /* MASConstraint.m in Sources */,
+				F4E6315C1E248DC300055A14 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4E631551E248DC300055A14 /* MASCompositeConstraint.m in Sources */,
+				F46840141E236B8F009B49E0 /* YNTest1ViewController.m in Sources */,
+				F4842CE31E23213200A17DBA /* YNGestureAnimator.m in Sources */,
+				F46840191E236BA3009B49E0 /* YNTest2ViewController.m in Sources */,
+				F4E631571E248DC300055A14 /* MASConstraintMaker.m in Sources */,
+				F459F5481E24DCA700126779 /* YNNavBaseController.m in Sources */,
+				F4E6315E1E248DC300055A14 /* ViewController+MASAdditions.m in Sources */,
+				F4E6315A1E248DC300055A14 /* MASViewConstraint.m in Sources */,
+				F4842CAC1E231FB900A17DBA /* main.m in Sources */,
+				F4E631591E248DC300055A14 /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4842CBC1E231FB900A17DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4842CC51E231FB900A17DBA /* YNGesNavigationControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4842CC71E231FB900A17DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4842CD01E231FB900A17DBA /* YNGesNavigationControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4842CC21E231FB900A17DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4842CA61E231FB900A17DBA /* YNGesNavigationControllerDemo */;
+			targetProxy = F4842CC11E231FB900A17DBA /* PBXContainerItemProxy */;
+		};
+		F4842CCD1E231FB900A17DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4842CA61E231FB900A17DBA /* YNGesNavigationControllerDemo */;
+			targetProxy = F4842CCC1E231FB900A17DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4842CB81E231FB900A17DBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4842CB91E231FB900A17DBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4842CD21E231FB900A17DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4842CD31E231FB900A17DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4842CD51E231FB900A17DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = YNGesNavigationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.YNGesNavigationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4842CD61E231FB900A17DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = YNGesNavigationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.YNGesNavigationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4842CD81E231FB900A17DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = YNGesNavigationControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.YNGesNavigationControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNGesNavigationControllerDemo.app/YNGesNavigationControllerDemo";
+			};
+			name = Debug;
+		};
+		F4842CD91E231FB900A17DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = YNGesNavigationControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.YNGesNavigationControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNGesNavigationControllerDemo.app/YNGesNavigationControllerDemo";
+			};
+			name = Release;
+		};
+		F4842CDB1E231FB900A17DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = YNGesNavigationControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.YNGesNavigationControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YNGesNavigationControllerDemo;
+			};
+			name = Debug;
+		};
+		F4842CDC1E231FB900A17DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UFF74VD5HK;
+				INFOPLIST_FILE = YNGesNavigationControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.YNGesNavigationControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YNGesNavigationControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4842CA21E231FB900A17DBA /* Build configuration list for PBXProject "YNGesNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4842CD21E231FB900A17DBA /* Debug */,
+				F4842CD31E231FB900A17DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4842CD41E231FB900A17DBA /* Build configuration list for PBXNativeTarget "YNGesNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4842CD51E231FB900A17DBA /* Debug */,
+				F4842CD61E231FB900A17DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4842CD71E231FB900A17DBA /* Build configuration list for PBXNativeTarget "YNGesNavigationControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4842CD81E231FB900A17DBA /* Debug */,
+				F4842CD91E231FB900A17DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4842CDA1E231FB900A17DBA /* Build configuration list for PBXNativeTarget "YNGesNavigationControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4842CDB1E231FB900A17DBA /* Debug */,
+				F4842CDC1E231FB900A17DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4842C9F1E231FB900A17DBA /* Project object */;
+}
